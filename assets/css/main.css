@@ -2126,6 +2126,11 @@ input, select, textarea {
 				white-space: pre-wrap;
 				margin: -1.25em 0 0 -3em;
 			}
+			.galleryThumb:after{
+				content:"View";
+				white-space: pre-wrap;
+				margin: -1.25em 0 0 -3em;
+			}
 			.image.thumb:hover:after {
 				opacity: 1.0;
 			}
@@ -3259,3 +3264,20 @@ input, select, textarea {
 			}
 
 	}
+
+.pgBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.pgCol{
+	display: flex;
+	flex-direction: column;
+	width: 47.5%;
+}
+
+.pgBox.pgCol article{
+	width: 100%;
+	padding-bottom: 5%;
+}
