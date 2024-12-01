@@ -2087,16 +2087,38 @@ input, select, textarea {
 				white-space: nowrap;
 			}
 			#art:after{
-				content:"Portaits\APieces\APencil\APhotos\APotpourri";
+				content:"Art";
 				white-space: pre-wrap;
-				margin: -5.25em 0 0 -3em;
+				margin: -4.25em 0 0 -3em;
 			}
+			#portraits:after{
+				content:"Portraits";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -3em;
+			}
+			#pieces:after{
+				content:"Pieces";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -3em;
+			}
+			#pencil:after{
+				content:"Pencil";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -3em;
+			}
+			#photos:after{
+				content:"Photos";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -3em;
+			}
+
+
 			#engineering:after{
-				content:"Robotics\AML/AI\AWebdev";
+				content:"Robotics\A AI\A Software";
 				white-space: pre-wrap;
-				margin: -3.25em 0 0 -3em;
+				margin: -4.25em 0 0 -3em;
 			}
-			#bio:after{
+			/* #bio:after{
 				content:"About Me\AMusic Taste\A Cool Pics\A Contact Info";
 				white-space: pre-wrap;
 				margin: -5.25em 0 0 -3em;
@@ -2105,18 +2127,18 @@ input, select, textarea {
 				content:"Fellow GOATs";
 				white-space: pre-wrap;
 				margin: -1.25em 0 0 -5em;
-			}
+			} */
 			.engineerThumb:after{
 				content:"More Info";
 				white-space: pre-wrap;
 				margin: -1.25em 0 0 -3em;
 			}
-			.artThumb:after{
+			/* .artThumb:after{
 				content:"View Gallery";
 				white-space: pre-wrap;
 				margin: -1.25em 0 0 -3em;
-			}
-			.pinThumb:after{
+			} */
+			/* .pinThumb:after{
 				content:"Pinterest";
 				white-space: pre-wrap;
 				margin: -1.25em 0 0 -3em;
@@ -2130,7 +2152,7 @@ input, select, textarea {
 				content:"IMDb";
 				white-space: pre-wrap;
 				margin: -1.25em 0 0 -3em;
-			}
+			} */
 			.galleryThumb:after{
 				content:"View";
 				white-space: pre-wrap;
@@ -2734,14 +2756,14 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 2em 2em 2em 2em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			margin: 2em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
