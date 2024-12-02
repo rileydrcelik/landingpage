@@ -32,10 +32,7 @@
 						<header class="major">
 							<h2 href="https://myfridge.rileydrcelik.com/">MyFridge</h2>
 						</header>
-                        <ul class="actions">
-                            <li><a href="https://myfridge.rileydrcelik.com/" class="button">View Project</a></li>
-                        </ul>
-						<p>Fridge tracker and recipe generator.</p>
+                        
                         <ul class="actions">
 							<li><a href="../index.html" class="button">Home</a></li>
                             <li><a href="engineering.html" class="button">Back</a></li>
@@ -45,22 +42,9 @@
 
 				<!-- Two -->
 					<section id="two">
-                        <div class="row">
-                            <article class="col-6 col-12-xsmall video" >
-                                <h3>Demo</h3>
-                                <div class="videoWrapper">
-                                    <iframe width="914" height="514" src="https://www.youtube.com/embed/kECyXNHn8qM" title="Headstarter AI Grocery List" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </div>
-                            </article>
-                            
-                            
-						</div>
-					</section>
-
-                    <section id="three">
-                        <h2>Tools Used</h2>
-                        <div>
-                            <article class="col-6">
+                        <article class="col-6">
+                            <h2>Tools Used</h2>
+                            <div>
                                 <ul>
                                     <li>Next.Js</li>
                                     <li>Material UI</li>
@@ -68,93 +52,29 @@
                                     <li>Vercel</li>
                                     <li>OpenAI</li>
                                 </ul>
-                            </article>
-                        </div>
-						<h2>Process</h2>
-						<div>
-							<article class="col-6">
-                                <p>
-                                    At its core MyFridge was built with Next.Js using different components and functions to give the app basic functionality.
-                                    Along with Next.Js Firebase was used to handle the backend database stuff and track inventory.
-                                    To display the inventory and page structure, Material UI, a component library was used to give the app the same minimal aesthetic as the website.
-                                    Deploying the project was far more straightforward this time, using Vercel and linking it to my domain.
-                                    After first deployment the recipe generator was worked on using OpenAI API and does as you would think: generates a recipe based on the current ingredients in the database.
-                                    This was the first time I really used APIs, which proved challenging but I'm really glad I was able to work with them, since now there's a whole lot more I can do in future projects.
-                                </p>
-                                <h3>
-                                    Design
-                                </h3>
-                                <p>
-                                    The design of the app is minimal, keeping in style with the website.
-                                    Theres a centered box where everything is located, the top header has the title, search, add new item, and generate recipes features.
-                                    Bottom is the list of ingredients zebra coded, and next to each are options to add, subtract, or clear the item from inventory.
-                                    Listed is the item name, the quantity, and the 'Add', 'Remove', and 'Clear' buttons all aligned to the right to help organize the page and keep everything nice 'n tidy.
-                                </p>
-                                <h3>
-                                    Deployment
-                                </h3>
-                                <p>
-                                    Having previously learned the basics of deployment with Github and Cloudflare, doing this again with Vercel was a lot easier.
-                                    It took maybe under an hour to deploy?
-                                    I had a build error which was dealt with pretty quick and soon enough the site was live!
-                                    I linked it to my domain and thankfully Vercel has continuous deployment so I don't have to worry about updating Vercel everytime I need to update it.
-                                </p>
-                                <h3>
-                                    Features
-                                </h3>
-                                <p>
-                                    Going more in depth on the features, the top header's got search, add new item, and generate recipes.
-                                    The search allows you to well... search. 
-                                    Most of the features are pretty self explanitory which helps design wise, since it makes things a whole lot easier on the user end.
-                                    The search is pretty cool because as the user inputs letters the filter will update each time, making ingredient search much faster. 
-                                    Also I just love this version of a search filter so much better.
-                                    There's also the 'Add New Item' button that prompts the user to enter a name and the quantity, where they can click 'add' after they're done.
-                                    Last in the top header is the 'Generate Recipe', which is my favorite feature.
-                                    It's pretty simple in use: it just generates a recipe based on the ingredients in the database, however it was a pain to code it and seeing it work was so cool.
-                                    Like the text just generated through the API call, shit is like magic.
-                                </p>
-                                <p>
-                                    On the ingredients/grocery list there are three buttons, 'Add', 'Remove', and 'Clear'.
-                                    Each does as one would guess and use simple components which interact with the databse to work.
-                                </p>
-                                <h3>
-                                    Challenges/Reflection
-                                </h3>
-                                <p>
-                                    Going into this, I felt largely out of my depths.
-                                    I'm not really a web developer so working with JS isn't exactly my forte.
-                                    Next.Js however wasn't too difficult, and the basic functionality went relatively smoothly.
-                                    My lack of experience however started showing when I was trying to do more complicated things, especially when it came to the API.
-                                    At that point I was completely lost, and I found it a bit frustrating at times have to deal with the front and backend code simultaneously.
-                                    It also didn't help that I didn't read much documentation, so trying to implement OpenAI API I used the wrong Node.Js SDK which was a huge issue I didn't realize until a few hours into debugging.
-                                    In the end it was worth it though, as I'm pretty happy with how the project came out.
-                                    I'm writing this the day after, and the day after you get something big done you feel great, until the next day when you think about how insignifigant it was.
-                                    But right now imma ride the high and say it was worth it, and I'm really glad it works.
-                                </p>
-                                <p>
-                                    Moving forward, there's so much I could do with this project, and I'd really want to work with it in the future.
-                                    If I could get the app to recognize images I could have it add images of an actual fridge or ingredients and convert them to ingredients for the database.
-                                    With that I could maybe implement a ChatBot of some sort to help me decide things like what to eat for breakfast, dinner, and help with restock notifications.
-                                    There's a whole lot of potential with this but before all that I definitely need to make a login/account feature since at this point anyone can add ingredients and it's seen site-wide.
-                                    It's a public list which obviously can be exploited in like infinitely many ways but I was too gassed out yesterday to work on allat, so I'll leave it as it is for now.
-                                </p>
-                                <p>
-                                    Here's what I'd like to do:
-                                </p>
-                                <p>
-                                    <ul>
-                                        <li>Login/account feature</li>
-                                        <li>Image recognition</li>
-                                        <li>Kitchen chatbot</li>
-                                        <li>Fridge scanner</li>
-                                        <li>Actual fridge integration</li>
-                                    </ul>
-                                </p>
-                                <a href="https://myfridge.rileydrcelik.com/">Make sure to check it out! (Link to project)</a>
-							</article>
+                            </div>
 
-						</div>
+                            <ul class="actions">
+                                <li><a href="https://myfridge.rileydrcelik.com/" class="button">View Project</a></li>
+                            </ul>
+
+                            <h2>Overview</h2>
+                            <div>
+                                <p>myfridge is a recipe generator and pantry tracker powered by chatgpt. you can input indgredients and quantities of them in a list which is tracked. you can also alter and delete ingredients from the list. one of the cooler functionalities is the ability to generate recipes based on the ingredients present</p>
+                            </div>
+
+                            <h2>Development</h2>
+                            <div>
+                                <p>This project was built mainly using next.js and was also my first time using it. most of the local functionality (adding, deleting, changing list) was done with nextjs and material ui to make things look nicer. also the list of ingredients was stored on firebase. the generated ingredients was done through openai api routes through javascript, and integrated in the style of my personal website. unlike this website it was deployed with vercel with continuous integration in mind</p>
+                            </div>
+
+                            <h2>Reflection</h2>
+                            <div>
+                                <p>this was a pretty calm project, and i remember trying to cram it in the middle of my internship and summer classes. honestly im not really a fan of all the javascript that was involved with this, along with the routing things since i dont really fuck with web development, but i think part of that is due to the fact that i havent worked too much with javascript</p>
+                            </div>
+                        </article>
 					</section>
+
 			</div>
 
 		<!-- Footer -->
