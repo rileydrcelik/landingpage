@@ -2049,7 +2049,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2072,7 +2072,7 @@ input, select, textarea {
 				font-weight: 400;
 				left: 50%;
 				line-height: 2.25em;
-				opacity: 0;
+				opacity: 0.0;
 				padding: 0 1.5em;
 				position: absolute;
 				text-align: center;
@@ -2143,7 +2143,7 @@ input, select, textarea {
 				margin: -2.25em 0 0 -3em;
 			}
 			#bmcchack:after{
-				content:"BMCC Facial Recognition\AID Enterprise System\A(B.F.R.I.E.S)";
+				content:"BMCC Facial Recognition\AId Scan Enterprise System\A(BFRISES)";
 				white-space: pre-wrap;
 				margin: -2.25em 0 0 -6em;
 			}
@@ -2175,7 +2175,7 @@ input, select, textarea {
 
 			.image.thumb:hover:before {
 				background: url("images/overlay.png"), url("images/overlay.png");
-				opacity: 1.0;
+				opacity: .75;
 			}
 
 		.image img {
@@ -2850,32 +2850,13 @@ input, select, textarea {
 	}
 
 	.poptrox-popup {
-		-moz-box-sizing: content-box;
-		-webkit-box-sizing: content-box;
-		-ms-box-sizing: content-box;
-		box-sizing: content-box;
-		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-		background: #fff;
-		border-radius: 0.35em;
-		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
-		overflow: hidden;
-		padding-bottom: 3em;
+		display: none;
 	}
 
 		.poptrox-popup .loader {
-			text-decoration: none;
-			-moz-animation: spin 1s linear infinite;
-			-webkit-animation: spin 1s linear infinite;
-			-ms-animation: spin 1s linear infinite;
-			animation: spin 1s linear infinite;
-			font-size: 1.5em;
-			height: 1em;
-			left: 50%;
-			line-height: 1em;
-			margin: -0.5em 0 0 -0.5em;
-			position: absolute;
-			top: 50%;
-			width: 1em;
+			display: none;
+			
+			
 		}
 
 			.poptrox-popup .loader:before {
@@ -2896,17 +2877,7 @@ input, select, textarea {
 			}
 
 		.poptrox-popup .caption {
-			background: #fff;
-			bottom: 0;
-			cursor: default;
-			font-size: 0.9em;
-			height: 3em;
-			left: 0;
-			line-height: 2.8em;
-			position: absolute;
-			text-align: center;
-			width: 100%;
-			z-index: 1;
+			opacity: 0;
 		}
 
 		.poptrox-popup .nav-next,
