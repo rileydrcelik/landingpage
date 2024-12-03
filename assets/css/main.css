@@ -3325,4 +3325,6 @@ input, select, textarea {
 	justify-items: center;
 }
 
-
+img {
+	border-radius: 10px;
+}
