@@ -2157,6 +2157,11 @@ input, select, textarea {
 				white-space: pre-wrap;
 				margin: -2.25em 0 0 -7em;
 			}
+			#doggie:after{
+				content:"doggie";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -3em;
+			}
 			
 			.engineerThumb:after{
 				content:"More Info";
@@ -3326,5 +3331,9 @@ input, select, textarea {
 }
 
 img {
+	border-radius: 10px;
+}
+
+video {
 	border-radius: 10px;
 }
