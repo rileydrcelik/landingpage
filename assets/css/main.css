@@ -2105,6 +2105,26 @@ input, select, textarea {
 				white-space: pre-wrap;
 				margin: -2.25em 0 0 -3em;
 			}
+			#sketchbook:after{
+				content:"Sketchbook";
+				white-space: pre-wrap;
+				margin: -1em 0 0 -4em;
+			}
+			#sketch-portraits:after{
+				content:"Portraits";
+				white-space: pre-wrap;
+				margin: -1em 0 0 -4em;
+			}
+			#postits:after{
+				content:"Post-its";
+				white-space: pre-wrap;
+				margin: -1em 0 0 -4em;
+			}
+			#misc:after{
+				content:"Misc.";
+				white-space: pre-wrap;
+				margin: -1em 0 0 -4em;
+			}
 
 
 			#engineering:after{
