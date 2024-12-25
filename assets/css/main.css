@@ -2182,6 +2182,11 @@ input, select, textarea {
 				white-space: pre-wrap;
 				margin: -2.25em 0 0 -3em;
 			}
+			#startup:after{
+				content:"Startup Predictor";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -4em;
+			}
 			
 			.engineerThumb:after{
 				content:"More Info";
@@ -2750,6 +2755,11 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
+
+iframe{
+	border-radius: 10px;
+	width: 75%;
+}
 
 /* Footer */
 
