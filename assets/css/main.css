@@ -2187,6 +2187,16 @@ input, select, textarea {
 				white-space: pre-wrap;
 				margin: -2.25em 0 0 -4em;
 			}
+			#copornot:after{
+				content: "Cop Or Not";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -4em;
+			}
+			#casavista:after{
+				content: "CasaVista";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -4em;
+			}
 			
 			.engineerThumb:after{
 				content:"More Info";
