@@ -2197,6 +2197,11 @@ input, select, textarea {
 				white-space: pre-wrap;
 				margin: -2.25em 0 0 -4em;
 			}
+			#banana_search:after{
+				content: "Banana Search";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -4em;
+			}
 			
 			.engineerThumb:after{
 				content:"More Info";
