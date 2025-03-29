@@ -2080,8 +2080,29 @@ input, select, textarea {
 				top: 50%;
 				white-space: nowrap;
 			}
+			#photos:after{
+				content:"Photo Gallery\A Fred <3\ASexy Selfies";
+				white-space: pre-wrap;
+				margin: -4.25em 0 0 -3.5em;
+			}
+			#outside:after{
+				content:"photo gallery";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -5em;
+			}
+			#fred:after{
+				content:"Fred <3";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -3em;
+			}
+			#me:after{
+				content:"Sexy Selfies";
+				white-space: pre-wrap;
+				margin: -2.25em 0 0 -3em;
+			}
+
 			#art:after{
-				content:"Drawings\ARenders\APieces";
+				content:"Drawings\ARenders\AIllustrations";
 				white-space: pre-wrap;
 				margin: -4.25em 0 0 -3em;
 			}
@@ -2097,11 +2118,6 @@ input, select, textarea {
 			}
 			#pencil:after{
 				content:"Pencil";
-				white-space: pre-wrap;
-				margin: -2.25em 0 0 -3em;
-			}
-			#photos:after{
-				content:"Photos";
 				white-space: pre-wrap;
 				margin: -2.25em 0 0 -3em;
 			}
